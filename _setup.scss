@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9453a6;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#logo {
+    width: 60px;
+}
+
+#desc {
+    font-size: 2rem;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h5 {
+    font-family: "Pattaya";
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Pattaya";
+    color: #8cbf3f;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f2cc0f;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: #8cbf3f;
+}
+
+#description {
+    font-size: 2rem;
+    color: #f2cc0f;
+}
+
+.rounded {
+    width: 300px;
+    height: 200px;
+}
+
+.accordion-button {
+    background-color: #f2cc0f !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.accordion-item {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-primary {
+    background: #f2cc0f;
+    color: #9453a6;
+    border-color: #9453a6 !important;
+    font-family: "Roboto" !important;
+}
+
+.btn-primary:hover {
+    background: #8cbf3f;
+    color: #f2cc0f;
+    border-color: #f2cc0f !important;
+    font-family: "Roboto" !important;
+}
+
+@media (max-width: 576px) {
+    label {
+        display: none !important;
+    }
+
+    #carousel-control-prev,
+    #carousel-control-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) {
+
+    textarea::placeholder,
+    input::placeholder {
+        color: transparent !important;
+    }
+}
